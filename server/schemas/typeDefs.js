@@ -5,6 +5,8 @@ const typeDefs = gql `
         authors: [String]
         desription: String
         title: String
+        image: String
+        link: String
     }
 
     type Query {
